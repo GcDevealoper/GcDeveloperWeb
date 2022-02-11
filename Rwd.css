@@ -1,0 +1,36 @@
+
+@media (max-width:768px ){
+
+
+#SocialLinks{
+
+	width: 86px;
+	border-radius: 0px;
+}
+
+#SocialLinks i{
+
+	display: none;
+}
+
+#SocialLinks .Links{
+
+	display: inline-block;
+	opacity: 1;
+}
+
+
+#SocialLinks:hover{
+
+	width: 86px;
+    border-radius: 0px;
+}
+
+#SocialLinks:hover .Links{
+
+	animation: none;
+
+}
+
+
+}
