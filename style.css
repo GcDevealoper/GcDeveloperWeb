@@ -150,7 +150,7 @@ header{
 }
 
 .banner {
-    background-image: url(img/Banner.jpg);
+    background-image: url(img/Banner2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -165,7 +165,7 @@ header{
 
 .banner .BgProfile {
     background-color: #fff;
-    background-image: url(img/User.png);
+    background-image: url(img/User2.png);
     background-size: cover;
     width: 128px;
     height: 128px;
