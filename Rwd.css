@@ -1,4 +1,24 @@
 
+@media (max-width: 932px){
+
+	#DescAndSkills{
+		flex-flow: column wrap;
+		gap: 33px;
+	}
+
+	#DescAndSkills .Desc{
+		width: 70%;
+
+	}
+
+	.Projects .card{
+		width: 308px;
+
+	}
+
+}
+
+
 @media (max-width:768px ){
 
 
@@ -33,4 +53,28 @@
 }
 
 
+}
+
+@media (max-width: 693px){
+
+	#DescAndSkills{
+		width: 100%;
+
+	}
+
+	#DescAndSkills .Desc{
+
+		width: 90%;
+
+	}
+
+	.Desc h2{
+
+		font-size: 21px;
+	}
+
+	.Skllset{
+
+		width: 90%;
+	}
 }

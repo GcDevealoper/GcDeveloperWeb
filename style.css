@@ -149,6 +149,7 @@ header{
     border-radius: 0%;
 }
 
+/*MainContent*/
 .banner {
     background-image: url(img/Banner2.jpg);
     background-position: center;
@@ -196,45 +197,76 @@ main{
 	gap:40px;
 }
 
+#DescAndSkills{
+
+	width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
 .Desc{
 
+	width: 50%;
+    height: auto;
+    margin-top: 30px;
+    text-align: center;
+    color: #ccc;
+    gap: 20px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Desc h2{
+
+	color: #0089ff;
+}
+
+.Desc p{
+
 	width: 70%;
-	height: auto;
-	margin-top: 30px;
 	text-align: center;
-	color: #ccc;
-	font-size: 16px;
 }
 
 .Skllset{
 
 	color: #0089ff;
-	width: 100%;
-	height: auto;
-	display: flex;
-	gap:20px;
-	flex-flow: column wrap;
-	align-items: center;
-	justify-content: center;
+    width: 50%;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    flex-flow: column wrap;
+    align-items: center;
 
 }
 
 .Skils{
+
 	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	align-items: center;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .Skils img{
 
-	width: 130px;
+	width: 50px;
     transition: transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
 }
 
 .Skils span{
 
-	font-size: 110px;
+	font-size: 50px;
 	margin: 15px;
     transition: transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
 }
@@ -264,7 +296,7 @@ main{
 
 .Projects{
 
-	margin-top: 0px;
+	margin-top: 60px;
 	margin-bottom: 100px;
 	display: flex;
 	justify-content: center;
@@ -290,9 +322,9 @@ main{
 
 .Projects .card{
 
-	width: 350px;
-	height: 320px;
-	border-radius: 15px;
+	width: 339px;
+	height: 284px;
+	border-radius: 10px;
 	background: #333;
 	overflow: hidden;
 	box-shadow: 0px 1rem 1.5rem rgb(0 0 0 / 50%);
@@ -306,7 +338,7 @@ main{
 .Projects .card .Bg{
 
 	width: 100%;
-	height: 222px;
+	height: 191px;
 }
 
 .Projects .card .Bg img{
@@ -320,7 +352,7 @@ main{
 .Projects .card .pdesc{
 
 	width: 100%;
-	height: 90px;
+	height: auto;
 	transform: translateY(0px);
 	background: #303030;
 	padding-top: 8px;
@@ -343,8 +375,7 @@ main{
 
 footer{
 
-	background:#111;
-	color: #fff;
+	color: #999;
 	text-align: center;
 	width: 100%;
 	height: 70px;
