@@ -38,12 +38,14 @@ body{
 
 
 header{
+	position:fixed;
 	width: 100%;
 	height: 60px;
 	background: #333;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	z-index: 200;
 }
 
 
@@ -81,7 +83,7 @@ header{
     border-radius: 50%;
     width: 12px;
     max-height: 26px;
-    padding-left: 24px;
+    padding-left: 20px;
     margin-right: 14px;
     overflow: hidden;
     display: flex;
@@ -157,11 +159,12 @@ header{
     background-size: cover;
     width: 100%;
     height: 320px;
-    margin-bottom: 80px;
+    margin-bottom: 120px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
     box-sizing: border-box;
+	transform: translateY(60px);
 }
 
 .banner .BgProfile {
@@ -180,11 +183,6 @@ header{
 	transform: translateY(50%) scale(1.3);
 }
 
-.title {
-    color: #0089ff;
-    font-size: 17px;
-    text-align: center;
-}
 
 main{
 
@@ -292,6 +290,16 @@ main{
 	color: #ff41a1;
 }
 
+.Skils span:nth-child(5){
+
+	color: #ff2600;
+}
+
+.Skils span:nth-child(6){
+
+	color: #fbff00;
+}
+
 /*Cards*/
 
 .Projects{
@@ -322,8 +330,10 @@ main{
 
 .Projects .card{
 
-	width: 339px;
-	height: 284px;
+	/* width: 339px;
+	height: 284px; */
+	width:370px;
+	height:255px;
 	border-radius: 10px;
 	background: #333;
 	overflow: hidden;
@@ -338,7 +348,7 @@ main{
 .Projects .card .Bg{
 
 	width: 100%;
-	height: 191px;
+	height: 100%;
 }
 
 .Projects .card .Bg img{
